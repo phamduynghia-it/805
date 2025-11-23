@@ -1,55 +1,52 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
     <head>
         <meta charset="UTF-8" />
         <meta
             name="viewport"
-            content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+            content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
         />
-        <title>Best Moments</title>
-
+        <title>Happy Birthday</title>
         <link rel="stylesheet" href="style.css" />
-
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="stylesheet" href="numpad-custom.css" />
         <link
-            href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&family=Poppins:wght@400;700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Pacifico&family=Quicksand:wght@400;700&display=swap"
             rel="stylesheet"
         />
     </head>
-
     <body>
-        <div class="mobile-screen">
-            <main>
-                <div class="slider-container">
-                    <div class="slider-wrapper">
-                        <!-- 💥 Slider sẽ được sinh tự động từ JS -->
-                        <div class="slider" id="memorySlider"></div>
-                    </div>
-                </div>
-                <!-- Phần câu chúc sinh nhật -->
-                <div class="wishes-section" id="wishesSection">
-                    <p class="wish-text" id="wishText"></p>
-                </div>
-            </main>
-
-            <!-- Music Control Button -->
-            <button
-                class="music-control paused"
-                id="musicControl"
-                aria-label="Toggle music"
-            >
-                <svg viewBox="0 0 24 24">
-                    <path
-                        d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"
-                    />
-                </svg>
-            </button>
+        <div class="container" id="welcome-screen">
+            <h1>Happy Birthday</h1>
+            <p>To my love</p>
+            <button id="start-btn">Start!</button>
         </div>
 
-        <audio id="backgroundMusic" loop>
-            <source src="music.mp3" type="audio/mpeg" />
-        </audio>
+        <div class="lock-container" id="lock-screen" style="display: none">
+            <div class="photo-frame">
+                <img src="images/a3.jpg" alt="couple" />
+                <div class="photo-caption">i love you &lt;3</div>
+            </div>
+            <h2>Love's Lock</h2>
+            <p>Sinh nhật chồng là ngày nào nhỉ?</p>
+            <div class="lock-input">
+                <span class="lock-icon">🔒</span>
+                <span id="password-dots"></span>
+            </div>
+            <div class="numpad">
+                <button class="num-btn num-1">1</button>
+                <button class="num-btn num-2">2</button>
+                <button class="num-btn num-3">3</button>
+                <button class="num-btn num-4">4</button>
+                <button class="num-btn num-5">5</button>
+                <button class="num-btn num-6">6</button>
+                <button class="num-btn num-7">7</button>
+                <button class="num-btn num-8">8</button>
+                <button class="num-btn num-9">9</button>
+                <button class="num-btn num-star">*</button>
+                <button class="num-btn num-0">0</button>
+                <button class="num-btn num-backspace" id="backspace">⌫</button>
+            </div>
+        </div>
 
         <script src="script.js"></script>
     </body>
