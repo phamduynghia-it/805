@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+        />
+        <title>Best Moments</title>
+
+        <link rel="stylesheet" href="style.css" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&family=Poppins:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+
+    <body>
+        <div class="mobile-screen">
+            <main>
+                <div class="slider-container">
+                    <div class="slider-wrapper">
+                        <!-- 💥 Slider sẽ được sinh tự động từ JS -->
+                        <div class="slider" id="memorySlider"></div>
+                    </div>
+                </div>
+                <!-- Phần câu chúc sinh nhật -->
+                <div class="wishes-section" id="wishesSection">
+                    <p class="wish-text" id="wishText"></p>
+                </div>
+            </main>
+
+            <!-- Music Control Button -->
+            <button
+                class="music-control paused"
+                id="musicControl"
+                aria-label="Toggle music"
+            >
+                <svg viewBox="0 0 24 24">
+                    <path
+                        d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"
+                    />
+                </svg>
+            </button>
+        </div>
+
+        <audio id="backgroundMusic" loop>
+            <source src="music.mp3" type="audio/mpeg" />
+        </audio>
+
+        <script src="script.js"></script>
+    </body>
+</html>
