@@ -8,15 +8,15 @@ const memoryData = [
     },
     {
         img: "images/a2.jpg",
-        wish: "Sinh nhật vui vẻ nha chồng! Mong mọi điều tốt đẹp nhất luôn bên anh. Cảm ơn anh vì đã cùng em đi qua bao ngày tháng. Em tự hào vì có anh trong đời. 💕✨",
+        wish: "mình đã đi qua nhiều nơi cùng nhau . Có nhiều kỷ niệm thật là tuyệt vời",
     },
     {
         img: "images/a3.jpg",
-        wish: "Happy Birthday my husband! Chúc anh tuổi mới đầy năng lượng, nụ cười luôn rạng rỡ và mọi ước mơ của anh đều thành hiện thực. Em luôn ở đây bên anh. 💝🎈",
+        wish: "Hãy viết tiếp hành trình đó cùng nhau bằng tình yêu và sự cảm thông này chồng nhé .",
     },
     {
         img: "images/a4.jpg",
-        wish: "Chúc mừng sinh nhật người đàn ông tuyệt vời nhất cuộc đời em! Cảm ơn anh vì đã yêu thương và chăm sóc em từng chút một. Chúc anh luôn hạnh phúc và bình an. ❤️🎁",
+        wish: "Lần đầu được cùng chồng đi công tác, những trải nghiệm thật  đáng nhớ . Không khí ở đây cũng rất tuyệt vời.",
     },
     {
         img: "images/a5.jpg",
@@ -32,7 +32,7 @@ const memoryData = [
     },
     {
         img: "images/a8.jpg",
-        wish: "Tuổi mới, chúc chồng yêu thêm nhiều thành công, nhiều niềm vui và nhiều khoảnh khắc tuyệt đẹp. Em luôn tự hào về anh! ❤️🔥",
+        wish: " Cái Tết đầu tiên mà chúng ta đã đón cùng nhau, thật vui và hạnh phúc chồng nhỉ .",
     },
     {
         img: "images/a9.jpg",
@@ -40,7 +40,7 @@ const memoryData = [
     },
     {
         img: "images/a10.jpg",
-        wish: "Chúc mừng sinh nhật người đàn ông khiến trái tim em rung động mỗi ngày. Cảm ơn anh vì đã yêu em theo cách mà không ai có thể. Em yêu anh vô hạn. 💓🎊",
+        wish: "2 mẹ con yêu Ba ❤️",
     }
 ];
 const birthdayWishes = [
@@ -121,8 +121,14 @@ function updateSlide() {
         const rightArrow = slide.querySelector(".nav-arrow.right");
 
         if (i === index) {
-            if (leftArrow) leftArrow.style.display = "flex";
-            if (rightArrow) rightArrow.style.display = "flex";
+            // Ẩn arrows khi ở slide cuối cùng (ảnh 10, index = total - 1)
+            if (index === total - 1) {
+                if (leftArrow) leftArrow.style.display = "none";
+                if (rightArrow) rightArrow.style.display = "none";
+            } else {
+                if (leftArrow) leftArrow.style.display = "flex";
+                if (rightArrow) rightArrow.style.display = "flex";
+            }
         } else {
             if (leftArrow) leftArrow.style.display = "none";
             if (rightArrow) rightArrow.style.display = "none";
