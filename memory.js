@@ -24,11 +24,11 @@ const memoryData = [
     },
     {
         img: "images/a6.jpg",
-        wish: "Happy Birthday chồng yêu! Chúc anh luôn mạnh khỏe, công việc thuận lợi và lúc nào cũng giữ được nụ cười đẹp trai mà em mê mãi. 😘🎉",
+        wish: "chồng yêu! Chúc chồng luôn mạnh khỏe, công việc thuận lợi và lúc nào cũng giữ được nụ cười đẹp trai mà em mê mãi. 😘🎉",
     },
     {
         img: "images/a7.jpg",
-        wish: "Chúc mừng sinh nhật chồng của em! Anh là người bạn đồng hành tuyệt vời nhất. Chúc anh luôn hạnh phúc, bình an và được yêu thương như cách anh xứng đáng. 💗🌟",
+        wish: "Chồng của em! Anh là người bạn đồng hành tuyệt vời nhất. Chúc chồng luôn hạnh phúc, bình an và được yêu thương như cách anh xứng đáng. 💗🌟",
     },
     {
         img: "images/a8.jpg",
@@ -36,7 +36,7 @@ const memoryData = [
     },
     {
         img: "images/a9.jpg",
-        wish: "Sinh nhật vui vẻ nhé chồng yêu! Mong mọi dự định của anh đều thành công. Dù thế nào, em vẫn luôn tin tưởng và ở bên cạnh anh. 💞🎂",
+        wish: " Mong mọi dự định của chồng đều thành công. Dù thế nào, vợ vẫn luôn tin tưởng và ở bên cạnh chồng. 💞🎂",
     },
     {
         img: "images/a10.jpg",
