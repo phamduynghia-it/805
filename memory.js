@@ -24,7 +24,7 @@ const memoryData = [
     },
     {
         img: "images/a6.jpg",
-        wish: "chồng yêu! Chúc chồng luôn mạnh khỏe, công việc thuận lợi và lúc nào cũng giữ được nụ cười đẹp trai mà em mê mãi. 😘🎉",
+        wish: "Chồng yêu! Chúc chồng luôn mạnh khỏe, công việc thuận lợi và lúc nào cũng giữ được nụ cười đẹp trai mà em mê mãi. 😘🎉",
     },
     {
         img: "images/a7.jpg",
@@ -40,7 +40,7 @@ const memoryData = [
     },
     {
         img: "images/a10.jpg",
-        wish: "2 mẹ con yêu Ba ❤️",
+        wish: "2 mẹ con yêu ba Tường nhiều ❤️",
     }
 ];
 const birthdayWishes = [
