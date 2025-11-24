@@ -4,7 +4,7 @@
 const memoryData = [
     {
         img: "images/a1.jpg",
-        wish: "Chúc mừng sinh nhật chồng yêu! Cảm ơn chồng vì luôn là điểm tựa vững chắc của vợ. Chúc chồng thêm tuổi mới mạnh khỏe, vui vẻ và luôn thành công. vợ yêu chồng rất nhiều! ❤️🎂",
+        wish: "Chúc mừng sinh nhật chồng yêu! Cảm ơn chồng vì luôn là điểm tựa vững chắc của vợ. Chúc chồng thêm tuổi mới mạnh khỏe, vui vẻ và luôn thành công. Vợ yêu chồng rất nhiều! ❤️🎂",
     },
     {
         img: "images/a2.jpg",
