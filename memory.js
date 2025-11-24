@@ -62,7 +62,9 @@ const slider = document.getElementById("memorySlider");
 
 memoryData.forEach((item, i) => {
     const slide = document.createElement("div");
-    slide.className = "slide";
+    // Thêm class đặc biệt cho slide cuối cùng (ảnh 10)
+    const isLastSlide = i === memoryData.length - 1;
+    slide.className = isLastSlide ? "slide slide-full-image" : "slide";
 
     slide.innerHTML = `
         <img src="${item.img}" alt="${item.title}" loading="lazy" />
@@ -167,7 +169,7 @@ setTimeout(() => {
 setInterval(() => {
     index = (index + 1) % total;
     updateSlide();
-}, 5000);
+}, 8000);
 
 // Vuốt trái/phải - cải thiện cho mobile
 let startX = 0;
