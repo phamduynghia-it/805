@@ -4,11 +4,11 @@
 const memoryData = [
     {
         img: "images/a1.jpg",
-        wish: "Chúc mừng sinh nhật chồng yêu! Cảm ơn anh vì luôn là điểm tựa vững chắc của em. Chúc anh thêm tuổi mới mạnh khỏe, vui vẻ và luôn thành công. Em yêu anh rất nhiều! ❤️🎂",
+        wish: "Chúc mừng sinh nhật chồng yêu! Cảm ơn chồng vì luôn là điểm tựa vững chắc của vợ. Chúc chồng thêm tuổi mới mạnh khỏe, vui vẻ và luôn thành công. vợ yêu chồng rất nhiều! ❤️🎂",
     },
     {
         img: "images/a2.jpg",
-        wish: "mình đã đi qua nhiều nơi cùng nhau . Có nhiều kỷ niệm thật là tuyệt vời",
+        wish: "Mình đã đi qua nhiều nơi cùng nhau, có nhiều kỷ niệm thật tuyệt vời . 😍",
     },
     {
         img: "images/a3.jpg",
@@ -19,24 +19,24 @@ const memoryData = [
         wish: "Lần đầu được cùng chồng đi công tác, những trải nghiệm thật  đáng nhớ . Không khí ở đây cũng rất tuyệt vời.",
     },
     {
-        img: "images/a5.jpg",
-        wish: "Sinh nhật này, em chỉ muốn nói: Em biết ơn vũ trụ vì đã đưa anh đến bên em. Chúc anh tuổi mới tràn đầy niềm vui và những điều tốt đẹp nhất! 💫💖",
+        img: "images/a9.jpg",
+        wish: " Mong mọi dự định của chồng đều thành công. Dù thế nào, vợ vẫn luôn tin tưởng và ở bên cạnh chồng. 💞🎂",
     },
     {
         img: "images/a6.jpg",
-        wish: "Chồng yêu! Chúc chồng luôn mạnh khỏe, công việc thuận lợi và lúc nào cũng giữ được nụ cười đẹp trai mà em mê mãi. 😘🎉",
+        wish: "Chồng yêu! Chúc chồng luôn mạnh khỏe, công việc thuận lợi và lúc nào cũng giữ được nụ cười đẹp trai mà vợ mê mãi. 😘🎉",
     },
     {
         img: "images/a7.jpg",
-        wish: "Chồng của em! Anh là người bạn đồng hành tuyệt vời nhất. Chúc chồng luôn hạnh phúc, bình an và được yêu thương như cách anh xứng đáng. 💗🌟",
+        wish: "Chồng là người bạn đồng hành tuyệt vời nhất. Chúc chồng luôn hạnh phúc, bình an và được yêu thương như cách chồng xứng đáng. 💗🌟",
     },
     {
         img: "images/a8.jpg",
         wish: " Cái Tết đầu tiên mà chúng ta đã đón cùng nhau, thật vui và hạnh phúc chồng nhỉ .",
     },
-    {
-        img: "images/a9.jpg",
-        wish: " Mong mọi dự định của chồng đều thành công. Dù thế nào, vợ vẫn luôn tin tưởng và ở bên cạnh chồng. 💞🎂",
+    {    
+        img: "images/a5.jpg",
+        wish: "Sinh nhật này, vợ chỉ muốn nói: Vợ biết ơn vũ trụ vì đã đưa chồng đến bên vợ. Chúc chồng tuổi mới tràn đầy niềm vui và những điều tốt đẹp nhất! 💫💖",
     },
     {
         img: "images/a10.jpg",
